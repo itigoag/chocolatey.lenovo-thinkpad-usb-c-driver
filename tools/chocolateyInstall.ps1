@@ -12,6 +12,8 @@ if (!$PackageParameters['AUTOSTART']) {
     $PackageParameters['AUTOSTART'] = 'false'
 }
 
+Import-Module -Name "$($toolsDir)\helpers.ps1"
+
 # Package Arguments
 ## Zip download and unpacking
 $zipArgs = @{
