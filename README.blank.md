@@ -1,4 +1,4 @@
-# Chocolatey: skeleton
+# Chocolatey Package: skeleton
 
 ## Description
 
@@ -10,25 +10,17 @@
 
 ## Installation
 
-The package is created as follows.
-
-```ps1
-choco pack skeleton.nuspec --outputdirectory build
-```
-
 installation without parameters.
 
 ```ps1
- choco install skeleton -s="<path to folder>\build"
+ choco install skeleton
 ```
 
 installation with parameters.
 
 ```ps1
- choco install skeleton --params="'/<Parameters>'" -s="<path to folder>\build"
+ choco install skeleton --params="'/<Parameters>'"
 ```
-
-## Changelog
 
 ## Author
 
