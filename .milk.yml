@@ -31,10 +31,13 @@ deploy:
   - provider: chocolatey
     repository: 'https://nuget.itigo.tech/upload'
     key: "{{ lookup('env','CHOCOLATEY_ITIGO_API_KEY') }}"
+  - provider: chocolatey
+    repository: 'https://push.chocolatey.org/'
+    key: "{{ lookup('env','CHOCOLATEY_ORG_API_KEY') }}"
   - provider: github
     name: 'itigo-bot'
     email: 'chocomilk@itigo.ch'
-    url: github.com/itigoag/chocolatey.lenovo-system-update.git
+    url: github.com/itigoag/chocolatey.lenovo-thinkpad-usb-c-driver.git
     key: "{{ lookup('env','GITHUB_API_KEY') }}"
 
 # Notification
