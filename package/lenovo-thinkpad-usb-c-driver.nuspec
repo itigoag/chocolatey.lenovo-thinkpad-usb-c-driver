@@ -8,7 +8,7 @@
     <authors>Lenovo</authors>
     <packageSourceUrl>https://github.com/itigoag/chocolatey.lenovo-thinkpad-usb-c-driver</packageSourceUrl>
     <projectUrl>https://pcsupport.lenovo.com/de/en/downloads/ds501902</projectUrl>
-    <iconUrl>https://cdn.jsdelivr.net/gh/itigoag/chocolatey.lenovo-system-update@master/icon/lenovo-thinkpad-usb-c-driver.png</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/itigoag/chocolatey.lenovo-thinkpad-usb-c-driver@master/icon/lenovo-thinkpad-usb-c-driver.png</iconUrl>
     <copyright>(C) Copyright Lenovo 2018. All rights reserved</copyright>
     <tags>Lenovo ThinkPad USB-C Dock Driver</tags>
     <requireLicenseAcceptance>false</requireLicenseAcceptance> 
