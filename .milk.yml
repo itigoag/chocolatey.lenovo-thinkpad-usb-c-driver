@@ -6,11 +6,11 @@ changelog: 'https://raw.githubusercontent.com/itigoag/chocolatey.version/master/
 
 # Regex for Version
 version: "{{ register_changelog.content |
-  regex_search('([0-9]+.[0-9]+')
+  regex_search('[0-9][0-9][0-9][0-9][0-9].[0-9]+')
   }}"
 
 # Download URL
-url: "https://download.lenovo.com/pccbbs/mobiles/thinkpad_thunderbolt-3_dock_and_usb-c_dock_driver_v{{ version | regex_replace('\\.', '') }}.exe"
+url: "https://download.lenovo.com/pccbbs/mobiles/thinkpad_thunderbolt-3_dock_and_usb-c_dock_driver_v{{ version | regex_replace('\\.0', '') }}.exe"
 
 searchreplace:
   'tools/chocolateyinstall.ps1':
