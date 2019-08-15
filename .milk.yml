@@ -3,12 +3,10 @@
 
 # Package Changelog
 changelog: 'https://raw.githubusercontent.com/itigoag/chocolatey.version/master/lenovo-thinkpad-usb-c-driver.json'
-changelog_format: json
 
 # Regex for Version
-version: "{{ register_changelog.json |
-  json_query('items[*].version') |
-  join(', ')
+version: "{{ register_changelog.content |
+  regex_search('([0-9]+.[0-9]+')
   }}"
 
 # Download URL
