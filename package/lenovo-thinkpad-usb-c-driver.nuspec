@@ -3,7 +3,7 @@
   <metadata>
     <id>lenovo-thinkpad-usb-c-driver</id>
     <title>Lenovo ThinkPad USB-C Dock Driver</title>
-    <version>0</version>
+    <version>10017.0</version>
     <owners>ITIGO AG, Simon Bärlocher</owners>
     <authors>Lenovo</authors>
     <packageSourceUrl>https://github.com/itigoag/chocolatey.lenovo-thinkpad-usb-c-driver</packageSourceUrl>
