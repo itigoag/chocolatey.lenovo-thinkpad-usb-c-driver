@@ -8,7 +8,7 @@ Lenovo ThinkPad USB-C Dock Driver
 
 ## Installation
 
-installation without parameters.
+Installation without parameters.
 
 ```ps1
  choco install lenovo-thinkpad-usb-c-driver
@@ -21,7 +21,8 @@ These Chocolatey Packages only contain installation routines. The software itsel
 ## Author
 
 - [Simon Bärlocher](https://sbaerlocher.ch)
-- [ITIGO AG](https://www.itigo.ch)
+- [Benaiah Matthew Catherasoo](https://github.com/bmcatherasoo)
+- [Open Circle AG](https://www.open-circle.ch/)
 
 ## License
 
@@ -29,4 +30,4 @@ This project is under the MIT License. See the [LICENSE](https://sbaerlo.ch/lice
 
 ## Copyright
 
-(c) 2019, ITIGO AG
+&copy; 2022, Open Circle AG
