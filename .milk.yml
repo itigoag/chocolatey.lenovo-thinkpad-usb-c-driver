@@ -10,7 +10,7 @@ version: "{{ register_changelog.content |
   }}"
 
 # Download URL
-url: "https://download.lenovo.com/pccbbs/mobiles/thinkpad_thunderbolt-3_dock_and_usb-c_dock_driver_v{{ version | regex_replace('\\.0', '') }}.exe"
+url: "https://download.lenovo.com/consumer/options/lenovo_thinkpad_thunderbolt_3_dock_and_usb_c_dock_driver_v{{ version | regex_replace('\\.0', '') }}.exe"
 
 searchreplace:
   'tools/chocolateyinstall.ps1':
