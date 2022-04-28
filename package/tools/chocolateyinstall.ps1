@@ -5,8 +5,8 @@ $ErrorActionPreference = 'Stop';
 
 $toolsDir               = "$(Split-Path -Parent $MyInvocation.MyCommand.Definition)"
 $PackageParameters      = Get-PackageParameters
-$urlPackage = 'https://download.lenovo.com/pccbbs/mobiles/thinkpad_thunderbolt-3_dock_and_usb-c_dock_driver_v10017.exe'
-$checksumPackage = '20b8881050fdf6ec5d594b57dc169878bf7fa5d2095dc29c480355806e8b23bfe16a2fbdccec6f1ab872ce925880c6cd59db11116ae8bf7ae68c612401d3c948'
+$urlPackage = 'https://download.lenovo.com/consumer/options/lenovo_thinkpad_thunderbolt_3_dock_and_usb_c_dock_driver_v10019.exe'
+$checksumPackage = '010075499e3a7011151fb890b57ffe800234c69493180ffea71f03e716e75d66bfb25dfdc8e7b6cb3577a72fa594d5265cf9f84274efae88fe9c5aaeb5abb043'
 $checksumTypePackage    = 'SHA512'
 
 Import-Module -Name "$($toolsDir)\helpers.ps1"
