@@ -2,7 +2,7 @@
 # chocomilk vars
 
 # Package Changelog
-changelog: 'https://raw.githubusercontent.com/itigoag/chocolatey.version/master/lenovo-thinkpad-usb-c-driver.json'
+changelog: 'https://raw.githubusercontent.com/open-circle-ltd/chocolatey.version/master/lenovo-thinkpad-usb-c-driver.json'
 
 # Regex for Version
 version: "{{ register_changelog.content |
